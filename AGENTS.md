@@ -80,9 +80,14 @@ Floci follows a layered design:
 Typical service structure:
 
 - `services/<svc>/`
-  - `*Controller.java`
+  - `*Controller.java` (REST JSON / REST XML services, via JAX-RS)
+  - `*QueryHandler.java` (AWS Query/XML protocol services)
+  - `*JsonHandler.java` (AWS JSON 1.1 protocol services)
   - `*Service.java`
   - `model/`
+
+The entry-point class name depends on the service's AWS protocol (see "AWS Protocol
+Rules" below) — `Controller` is not universal.
 
 Rule:
 Copy an existing service pattern before introducing a new one.
