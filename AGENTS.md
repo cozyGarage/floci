@@ -15,7 +15,7 @@ Floci acts as an open-source alternative to LocalStack Community.
 - Port: 4566
 - Stack:
   - Java 25
-  - Quarkus 3.32.3
+  - Quarkus 3.37.4
   - JUnit 5
   - RestAssured
   - Jackson
@@ -80,9 +80,14 @@ Floci follows a layered design:
 Typical service structure:
 
 - `services/<svc>/`
-  - `*Controller.java`
+  - `*Controller.java` (REST JSON / REST XML services, via JAX-RS)
+  - `*QueryHandler.java` (AWS Query/XML protocol services)
+  - `*JsonHandler.java` (AWS JSON 1.1 protocol services)
   - `*Service.java`
   - `model/`
+
+The entry-point class name depends on the service's AWS protocol (see "AWS Protocol
+Rules" below) — `Controller` is not universal.
 
 Rule:
 Copy an existing service pattern before introducing a new one.
@@ -179,6 +184,11 @@ Critical areas:
     ./mvnw test
     ./mvnw clean package
     ./mvnw clean package -DskipTests
+
+A Checkstyle gate (`checkstyle.xml`, repo root) runs in the `validate` phase and fails the
+build on violations. Its ruleset is intentionally small — see the comment in `checkstyle.xml`
+before expanding it; a rule added there must already be clean across the existing codebase or
+it will break every build.
 
 ### Focused tests
 
