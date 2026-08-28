@@ -442,6 +442,9 @@
             <properties>
                 <skipITs>true</skipITs>
                 <quarkus.native.enabled>true</quarkus.native.enabled>
+                <!-- Mandrel/GraalVM native-image support lags the latest JDK feature
+                     release; pin native builds one release behind until Mandrel ships
+                     a JDK 25 build. Revisit when upgrading quarkus.platform.version. -->
                 <maven.compiler.release>24</maven.compiler.release>
             </properties>
         </profile>
