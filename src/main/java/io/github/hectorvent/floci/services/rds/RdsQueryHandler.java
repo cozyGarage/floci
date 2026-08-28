@@ -5,7 +5,6 @@ import io.github.hectorvent.floci.core.common.AwsException;
 import io.github.hectorvent.floci.core.common.AwsNamespaces;
 import io.github.hectorvent.floci.core.common.AwsQueryResponse;
 import io.github.hectorvent.floci.core.common.XmlBuilder;
-import io.github.hectorvent.floci.services.rds.model.DatabaseEngine;
 import io.github.hectorvent.floci.services.rds.model.DbCluster;
 import io.github.hectorvent.floci.services.rds.model.DbClusterParameterGroup;
 import io.github.hectorvent.floci.services.rds.model.DbEndpoint;

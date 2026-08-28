@@ -7,7 +7,6 @@ import io.github.hectorvent.floci.core.storage.InMemoryStorage;
 import io.github.hectorvent.floci.services.ecr.model.ImageDetail;
 import io.github.hectorvent.floci.services.ecr.model.ImageIdentifier;
 import io.github.hectorvent.floci.services.ecr.model.AuthorizationData;
-import io.github.hectorvent.floci.services.ecr.model.ImageMetadata;
 import io.github.hectorvent.floci.services.ecr.model.Repository;
 import io.github.hectorvent.floci.services.ecr.registry.EcrRegistryManager;
 import io.github.hectorvent.floci.services.ecr.registry.RegistryHttpClient;
@@ -26,7 +25,6 @@ import java.util.List;
 import java.util.Map;
 
 import static org.junit.jupiter.api.Assertions.*;
-import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.anyString;
 import static org.mockito.Mockito.when;
 

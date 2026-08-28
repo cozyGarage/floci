@@ -12,7 +12,6 @@ import io.github.hectorvent.floci.services.appsync.model.GraphqlApi;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 import java.util.Set;
 
 public class AuthorizationDataFetcher implements DataFetcher<Object> {

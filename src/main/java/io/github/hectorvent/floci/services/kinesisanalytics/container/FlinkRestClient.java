@@ -1,6 +1,5 @@
 package io.github.hectorvent.floci.services.kinesisanalytics.container;
 
-import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.enterprise.context.ApplicationScoped;
 import org.jboss.logging.Logger;

@@ -1,6 +1,5 @@
 package io.github.hectorvent.floci.services.stepfunctions;
 
-import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.github.hectorvent.floci.config.EmulatorConfig;
 import io.github.hectorvent.floci.services.dynamodb.DynamoDbJsonHandler;

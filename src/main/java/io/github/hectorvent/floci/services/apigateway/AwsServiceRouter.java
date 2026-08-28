@@ -21,7 +21,6 @@ import jakarta.inject.Inject;
 import jakarta.ws.rs.core.MultivaluedMap;
 import jakarta.ws.rs.core.Response;
 import org.jboss.logging.Logger;
-import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**

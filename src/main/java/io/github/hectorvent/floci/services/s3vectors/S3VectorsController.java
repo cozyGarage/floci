@@ -2,7 +2,6 @@ package io.github.hectorvent.floci.services.s3vectors;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import io.github.hectorvent.floci.core.common.AwsException;
 import io.github.hectorvent.floci.core.common.RegionResolver;
 import io.github.hectorvent.floci.services.s3vectors.model.VectorBucket;
 import io.github.hectorvent.floci.services.s3vectors.model.VectorData;
@@ -20,7 +19,6 @@ import jakarta.ws.rs.core.Response;
 import org.jboss.logging.Logger;
 
 import java.util.*;
-import java.util.stream.Collectors;
 
 @Path("/")
 @Produces(MediaType.APPLICATION_JSON)

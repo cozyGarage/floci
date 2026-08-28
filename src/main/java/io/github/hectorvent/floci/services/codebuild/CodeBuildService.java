@@ -7,7 +7,6 @@ import io.github.hectorvent.floci.core.common.AwsException;
 import io.github.hectorvent.floci.core.storage.StorageBackedMap;
 import io.github.hectorvent.floci.core.storage.StorageFactory;
 import io.github.hectorvent.floci.services.codebuild.model.Build;
-import io.github.hectorvent.floci.services.codebuild.model.BuildPhase;
 import io.github.hectorvent.floci.services.codebuild.model.Project;
 import io.github.hectorvent.floci.services.codebuild.model.ProjectArtifacts;
 import io.github.hectorvent.floci.services.codebuild.model.ProjectEnvironment;

@@ -3,7 +3,6 @@ package io.github.hectorvent.floci.services.appconfig;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
-import io.github.hectorvent.floci.core.common.AwsException;
 import io.github.hectorvent.floci.services.appconfig.model.*;
 import jakarta.inject.Inject;
 import jakarta.ws.rs.*;

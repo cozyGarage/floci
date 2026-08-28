@@ -1,6 +1,5 @@
 package io.github.hectorvent.floci.services.cloudtrail;
 
-import io.github.hectorvent.floci.core.common.AwsException;
 import io.quarkus.test.junit.QuarkusTest;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;

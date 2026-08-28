@@ -4,8 +4,6 @@ import com.fasterxml.jackson.databind.JsonNode;
 import io.github.hectorvent.floci.core.common.AwsException;
 import io.github.hectorvent.floci.services.cloudformation.model.StackResource;
 import io.github.hectorvent.floci.services.lambda.LambdaService;
-import io.github.hectorvent.floci.services.lambda.model.LambdaAlias;
-import io.github.hectorvent.floci.services.lambda.model.LambdaFunction;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
 

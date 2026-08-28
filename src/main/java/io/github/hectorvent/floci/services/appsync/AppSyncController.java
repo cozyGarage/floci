@@ -14,7 +14,6 @@ import jakarta.ws.rs.core.Response;
 import org.jboss.logging.Logger;
 
 import java.io.IOException;
-import java.util.List;
 import java.util.Map;
 
 @Path("/")

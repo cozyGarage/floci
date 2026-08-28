@@ -252,7 +252,7 @@ public class IamEnforcementFilter implements ContainerRequestFilter {
     /**
      * Builds a 403 Access Denied response in the wire format the calling SDK
      * expects. AWS SDKs hard-fail when they receive the wrong shape: an XML
-     * parser blows up on a leading {@code {}, and a JSON parser blows up on
+     * parser blows up on a leading {@code &#123;}, and a JSON parser blows up on
      * {@code <}. Pick the shape from request signals:
      *
      * <ul>

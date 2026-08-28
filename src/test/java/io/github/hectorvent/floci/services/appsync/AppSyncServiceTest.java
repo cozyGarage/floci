@@ -13,7 +13,6 @@ import io.github.hectorvent.floci.services.appsync.graphql.SchemaRegistry;
 import io.github.hectorvent.floci.services.appsync.model.ApiKey;
 import io.github.hectorvent.floci.services.appsync.model.AuthenticationType;
 import io.github.hectorvent.floci.services.appsync.model.GraphqlApi;
-import io.github.hectorvent.floci.services.appsync.model.SchemaCreationStatus;
 import jakarta.enterprise.inject.Instance;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

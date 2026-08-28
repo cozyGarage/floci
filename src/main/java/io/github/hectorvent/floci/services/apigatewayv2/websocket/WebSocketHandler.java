@@ -11,7 +11,6 @@ import io.github.hectorvent.floci.services.apigatewayv2.model.Api;
 import io.github.hectorvent.floci.services.apigatewayv2.model.Integration;
 import io.github.hectorvent.floci.services.apigatewayv2.model.Route;
 import io.github.hectorvent.floci.services.apigatewayv2.model.Stage;
-import io.vertx.core.buffer.Buffer;
 import io.vertx.core.http.ServerWebSocket;
 import io.vertx.ext.web.Router;
 import io.vertx.ext.web.RoutingContext;

@@ -1,10 +1,8 @@
 package io.github.hectorvent.floci.services.appsync.graphql;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import io.github.hectorvent.floci.services.appsync.graphql.util.AppSyncUtil;
 import io.quarkus.test.junit.QuarkusTest;
 import jakarta.inject.Inject;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
 

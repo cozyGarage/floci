@@ -7,7 +7,6 @@ import io.apicurio.registry.content.canon.JsonContentCanonicalizer;
 import io.apicurio.registry.content.canon.ProtobufContentCanonicalizer;
 import io.apicurio.registry.rules.compatibility.AvroCompatibilityChecker;
 import io.apicurio.registry.rules.compatibility.CompatibilityChecker;
-import io.apicurio.registry.rules.compatibility.CompatibilityDifference;
 import io.apicurio.registry.rules.compatibility.CompatibilityExecutionResult;
 import io.apicurio.registry.rules.compatibility.CompatibilityLevel;
 import io.apicurio.registry.rules.compatibility.JsonSchemaCompatibilityChecker;

@@ -16,8 +16,6 @@ import io.github.hectorvent.floci.services.emrserverless.model.UpdateApplication
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
 
-import java.time.Instant;
-import java.util.Date;
 import java.util.List;
 import java.util.Map;
 import java.util.UUID;

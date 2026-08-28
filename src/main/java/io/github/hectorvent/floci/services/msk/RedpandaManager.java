@@ -19,7 +19,6 @@ import org.jboss.logging.Logger;
 import java.io.Closeable;
 import java.net.HttpURLConnection;
 import java.net.URI;
-import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;

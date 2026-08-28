@@ -2,7 +2,6 @@ package io.github.hectorvent.floci.services.dynamodb;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.node.ObjectNode;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
 

@@ -36,8 +36,6 @@ import io.github.hectorvent.floci.services.cloudhsmv2.model.Backup;
 import io.github.hectorvent.floci.services.cloudhsmv2.model.BackupRetentionPolicy;
 import java.security.PrivateKey;
 import java.security.PublicKey;
-import java.time.temporal.ChronoUnit;
-import java.util.stream.Collectors;
 import java.time.Instant;
 import java.util.*;
 

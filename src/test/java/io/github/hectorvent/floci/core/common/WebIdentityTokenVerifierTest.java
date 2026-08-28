@@ -1,8 +1,6 @@
 package io.github.hectorvent.floci.core.common;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import io.github.hectorvent.floci.core.storage.InMemoryStorage;
-import io.github.hectorvent.floci.core.storage.StorageBackend;
 import io.github.hectorvent.floci.core.storage.AccountAwareStorageBackend;
 import io.github.hectorvent.floci.core.storage.StorageFactory;
 import io.github.hectorvent.floci.services.eks.EksOidcService;

@@ -15,7 +15,6 @@ import org.jboss.logging.Logger;
 
 import java.nio.charset.StandardCharsets;
 import java.util.*;
-import java.util.concurrent.ConcurrentHashMap;
 import java.util.stream.Collectors;
 
 @ApplicationScoped

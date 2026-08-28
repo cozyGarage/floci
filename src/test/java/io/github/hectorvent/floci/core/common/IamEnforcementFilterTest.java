@@ -32,7 +32,7 @@ import static org.mockito.Mockito.when;
 /**
  * Unit tests for {@link IamEnforcementFilter#accessDeniedResponse}, focused on
  * the protocol-aware response shape. AWS SDKs hard-fail on wrong-shape error
- * payloads — an XML parser blows up on a leading {@code "{"} and a JSON parser
+ * payloads — an XML parser blows up on a leading {@code "&#123;"} and a JSON parser
  * blows up on a leading {@code "<"} — so each protocol has to get the right
  * envelope.
  */

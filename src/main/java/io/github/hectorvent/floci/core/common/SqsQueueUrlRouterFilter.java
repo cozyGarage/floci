@@ -7,7 +7,6 @@ import jakarta.ws.rs.core.MediaType;
 import jakarta.ws.rs.ext.Provider;
 
 import java.io.ByteArrayInputStream;
-import java.io.InputStream;
 import java.io.SequenceInputStream;
 import java.net.URI;
 import java.net.URLEncoder;
