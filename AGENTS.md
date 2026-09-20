@@ -87,7 +87,7 @@ Typical service structure:
   - `model/`
 
 The entry-point class name depends on the service's AWS protocol (see "AWS Protocol
-Rules" below) — `Controller` is not universal.
+Rules" below); `Controller` is not universal.
 
 Rule:
 Copy an existing service pattern before introducing a new one.
@@ -254,13 +254,14 @@ When adding functionality:
 
 ## Adding a New AWS Service
 
-1. Create a package under `services/<svc>/` with a Controller, a Service, and `model/`
+1. Create a package under `services/<svc>/` with a Controller or protocol-specific handler,
+   a Service, and `model/`
 2. Add a `<Svc>ServiceConfig` interface and its accessor on `ServicesConfig` in `EmulatorConfig`
 3. Add one `descriptor(...)` entry in `ResolvedServiceCatalog`. This is the registration point;
    `ServiceRegistry` only reads the catalog and has no registration API
 4. Add `floci.services.<key>.enabled` to both `src/main/resources/application.yml` and
    `src/test/resources/application.yml`
-5. JSON 1.1 only: inject the handler in `AwsJson11Controller`
+5. JSON 1.1 only: inject the `<Svc>JsonHandler` in `AwsJson11Controller`
 6. Obtain storage through `StorageFactory` and implement `Resettable`
 7. List any static `Random` or `SecureRandom` field under `--initialize-at-run-time` in
    `application.yml`
